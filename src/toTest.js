@@ -1,5 +1,5 @@
-import testFunc from './util';
+import { testFunction } from './testFunc';
 
 export function toTest() {
-  return testFunc();
+  return testFunction();
 }
